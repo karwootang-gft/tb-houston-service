@@ -34,7 +34,7 @@ jobs:
     - name: run semver
       shell: bash
       run: |
-        cd ${GITHUB_WORKSPACE}/actions
+        cd ${GITHUB_WORKSPACE}/tb-houston-service
         bash -x ${GITHUB_WORKSPACE}/TranquilityBase/scripts/semver_tag.sh 
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
