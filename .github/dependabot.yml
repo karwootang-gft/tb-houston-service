@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: google-auth
+    versions:
+    - 1.24.0
+    - 1.25.0
+    - 1.26.0
+    - 1.26.1
+    - 1.27.0
+    - 1.27.1
+    - 1.28.0
+    - 1.28.1
+    - 1.29.0
+  - dependency-name: marshmallow-sqlalchemy
+    versions:
+    - 0.24.1
+    - 0.24.2
+  - dependency-name: more-itertools
+    versions:
+    - 8.6.0
+  - dependency-name: httplib2
+    versions:
+    - 0.18.0
