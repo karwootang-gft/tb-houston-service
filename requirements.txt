@@ -53,5 +53,5 @@ urllib3==1.25.8
 virtualenv==20.0.7
 virtualenv-clone==0.5.3
 websocket-client==0.57.0
-Werkzeug==1.0.0
+Werkzeug==2.0.0
 zipp==3.1.0
